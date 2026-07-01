@@ -367,6 +367,10 @@ This work builds upon previous open-source resources, including:
 
 We gratefully acknowledge the authors of these resources for enabling further research in Arabic NLP and LLM safety.
 ---
-# Note
+## License
 
-Third-party content: The prompt_injection category contains samples adapted from the prompt-injection-benchmark dataset, which is distributed under the MIT License. We acknowledge the original authors and retain the required attribution in accordance with the MIT License.
+The original AAAC dataset is released under the MIT License.
+
+The `prompt_injection` subset contains samples adapted from the
+`prompt-injection-benchmark` dataset, which is also distributed under the MIT License.
+The original authors are acknowledged in accordance with the license requirements.
