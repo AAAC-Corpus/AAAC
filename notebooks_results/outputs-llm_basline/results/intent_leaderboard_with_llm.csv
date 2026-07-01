@@ -1,0 +1,3 @@
+Model,Accuracy,Precision,Recall,Macro F1,F1 95% CI,F1 mean±std,Train time (s),Model MB
+LLM-few-shot,0.7023,0.6574,0.6827,0.6524,–,–,–,–
+LLM-zero-shot,0.4628,0.4779,0.4314,0.3936,–,–,–,–
