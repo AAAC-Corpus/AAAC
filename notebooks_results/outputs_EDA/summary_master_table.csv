@@ -1,0 +1,16 @@
+category,language_variant,n_samples,mean_words,mean_chars
+hate_speech,algerian_derja,130,6.09,34.1
+hate_speech,arabizi,142,5.56,31.58
+hate_speech,franco_arabic,100,6.43,36.75
+prompt_injection,algerian_derja,185,9.29,54.45
+prompt_injection,arabizi,162,9.08,58.22
+prompt_injection,franco_arabic,150,10.25,65.68
+safe,algerian_derja,436,6.16,35.59
+safe,arabizi,619,5.89,37.25
+safe,franco_arabic,486,6.84,41.32
+sensitive_request,algerian_derja,154,8.94,48.18
+sensitive_request,arabizi,92,7.27,44.5
+sensitive_request,franco_arabic,122,8.87,50.78
+tool_misuse,algerian_derja,108,10.56,58.43
+tool_misuse,arabizi,94,10.52,59.88
+tool_misuse,franco_arabic,106,11.04,64.46

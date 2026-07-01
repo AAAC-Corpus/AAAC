@@ -1,0 +1,8 @@
+source,count,percentage
+Safe — supplemental (manual),1008,32.66
+Tool-Misuse (Claude-generated),450,14.58
+Prompt-Injection Benchmark (zachz),435,14.1
+Hate Speech (manual),372,12.05
+"AAAC (Llama-3.3-70B, Groq)",370,11.99
+Prompt-Injection Benchmark (zachz) — benign split,296,9.59
+Sensitive Request (manual),155,5.02

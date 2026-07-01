@@ -1,0 +1,6 @@
+category,count,percentage
+safe,1541,49.94
+prompt_injection,497,16.1
+sensitive_request,368,11.92
+tool_misuse,308,9.98
+hate_speech,372,12.05
