@@ -127,7 +127,6 @@ AAAC/
 │   ├── outputs_EDA/
 │   └── outputs_llm_baseline/
 │
-├── figures/
 │
 └── paper/
     └── AAAC.pdf
@@ -367,3 +366,7 @@ This work builds upon previous open-source resources, including:
 - Groq Llama models
 
 We gratefully acknowledge the authors of these resources for enabling further research in Arabic NLP and LLM safety.
+---
+# Note
+
+Third-party content: The prompt_injection category contains samples adapted from the prompt-injection-benchmark dataset, which is distributed under the MIT License. We acknowledge the original authors and retain the required attribution in accordance with the MIT License.

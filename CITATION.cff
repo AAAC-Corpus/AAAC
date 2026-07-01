@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+
+title: "AAAC: An Algerian Arabic Adversarial Corpus for Dialect-Aware Hate Speech and Prompt Injection Detection in LLM Safety Pipelines"
+
+message: "If you use this dataset, please cite our paper."
+
+type: dataset
+
+authors:
+  - family-names: Dalache
+    given-names: Aya
+    affiliation: University Ferhat Abbas Sétif 1
+
+  - family-names: Chebli
+    given-names: Nessrine
+    affiliation: University Ferhat Abbas Sétif 1
+
+  - family-names: Harrag
+    given-names: Fouzi
+    affiliation: University Ferhat Abbas Sétif 1
+
+  - family-names: Derdour
+    given-names: Makhlouf
+    affiliation: University of Oum El Bouaghi
+
+  - family-names: Deriche
+    given-names: Mohamed
+    affiliation: Ajman University
+
+  - family-names: Shaalan
+    given-names: Khaled
+    affiliation: The British University in Dubai
+
+repository-code: https://github.com/AAAC-Corpus/AAAC
+
+license: MIT
+
+keywords:
+  - Algerian Arabic
+  - NLP
+  - LLM Safety
+  - Prompt Injection
+  - Hate Speech
+  - Dataset
+  - Benchmark
+  - Arabizi
+  - Dialectal Arabic
