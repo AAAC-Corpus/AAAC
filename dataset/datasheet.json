@@ -1,0 +1,77 @@
+{
+  "dataset_name": "AAAC — Algerian Arabic Adversarial Commands",
+  "version": "2.0 (unified three-subdataset release)",
+  "language_variants": [
+    "arabizi",
+    "algerian_derja",
+    "franco_arabic"
+  ],
+  "tasks": [
+    "5-way intent classification (category)",
+    "binary adversarial detection (is_adversarial)"
+  ],
+  "splits": {
+    "train": 2472,
+    "val": 309,
+    "test": 309
+  },
+  "label_distribution_test": {
+    "safe": 155,
+    "prompt_injection": 50,
+    "hate_speech": 37,
+    "sensitive_request": 36,
+    "tool_misuse": 31
+  },
+  "provenance": {
+    "subdataset_1": {
+      "name": "Adversarial Commands",
+      "generation": "Groq API — llama-3.3-70b-versatile",
+      "curation": "Manual review, correction, and filtering by authors",
+      "licence": "N/A (no derived-work obligation)"
+    },
+    "subdataset_2": {
+      "name": "Prompt Injection",
+      "generation": "Derived from zachz/prompt-injection-benchmark (HuggingFace)",
+      "source_url": "https://huggingface.co/datasets/zachz/prompt-injection-benchmark",
+      "source_licence": "MIT License",
+      "modifications": "Translation to Algerian Arabic, Arabizi, Franco-Arabic + manual QC",
+      "licence": "MIT License — attribution required"
+    },
+    "subdataset_3": {
+      "name": "Tool Misuse",
+      "generation": "Anthropic Claude API",
+      "curation": "Manual review, correction, and filtering by authors",
+      "note": "Used for safety-evaluation benchmark only, not LM training; generation source disclosed.",
+      "post_merge_fixes": [
+        "Franco-Arabic samples rewritten: Claude outputs were standard French, not Franco-Arabic.",
+        "Arabic-script samples corrected: Claude used Moroccan Darija; revised to Algerian Arabic."
+      ]
+    }
+  },
+  "annotation": {
+    "num_annotators": 1,
+    "annotation_mode": "Single-annotator manual validation of AI-generated samples",
+    "annotator_languages": [
+      "Arabic",
+      "Algerian Arabic",
+      "French",
+      "English"
+    ],
+    "annotator_background": "Computer Science",
+    "annotator_expertise": [
+      "Natural Language Processing",
+      "Data Engineering",
+      "Web Development"
+    ],
+    "iaa_applicable": false,
+    "iaa_note": "Inter-annotator agreement was not computed because the dataset was validated by a single domain expert. Quality is evidenced by the correction/rejection rate reported below and the annotator's qualifications in NLP and Algerian Arabic.",
+    "correction_rate": null,
+    "rejection_rate": null,
+    "corrections_per_category": null
+  },
+  "collection_period": "TODO: add dates",
+  "consent_privacy": "No PII collected; seed prompts are synthetic; annotator is also the author.",
+  "intended_use": "Training and evaluating adversarial-command detection in Algerian Arabic NLP systems",
+  "known_biases": "TODO: list sub-dialects/regions represented; Algerian dialect coverage may not be exhaustive.",
+  "license_status": "Sub-dataset 2 carries MIT obligations. Sub-dataset 3: Anthropic ToS review recommended before CC-BY 4.0 release."
+}
