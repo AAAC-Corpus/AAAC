@@ -1,0 +1,13 @@
+Model,Task,Setting,Script,n_test,Macro-F1 (strict)
+allam-2-7b,intent,few-shot (mean of 1 draw),algerian_derja,102,0.7925
+allam-2-7b,intent,few-shot (mean of 1 draw),arabizi,126,0.4999
+allam-2-7b,intent,few-shot (mean of 1 draw),franco_arabic,81,0.8309
+allam-2-7b,adversarial,few-shot (mean of 1 draw),algerian_derja,102,0.9506
+allam-2-7b,adversarial,few-shot (mean of 1 draw),arabizi,126,0.8487
+allam-2-7b,adversarial,few-shot (mean of 1 draw),franco_arabic,81,0.9256
+openai/gpt-oss-120b,intent,few-shot (mean of 1 draw),algerian_derja,102,0.8984
+openai/gpt-oss-120b,intent,few-shot (mean of 1 draw),arabizi,126,0.8181
+openai/gpt-oss-120b,intent,few-shot (mean of 1 draw),franco_arabic,81,0.7881
+openai/gpt-oss-120b,adversarial,few-shot (mean of 1 draw),algerian_derja,102,0.9702
+openai/gpt-oss-120b,adversarial,few-shot (mean of 1 draw),arabizi,126,0.886
+openai/gpt-oss-120b,adversarial,few-shot (mean of 1 draw),franco_arabic,81,0.9379

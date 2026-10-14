@@ -1,0 +1,16 @@
+Task,Model,Script,n_test,Macro F1
+intent,MARBERT,franco_arabic,81,0.9252
+intent,MARBERT,arabizi,126,0.7563
+intent,MARBERT,algerian_derja,102,0.9859
+intent,AraBERT,franco_arabic,81,0.8913
+intent,AraBERT,arabizi,126,0.7834
+intent,AraBERT,algerian_derja,102,0.9486
+intent,DziriBERT,franco_arabic,81,0.9421
+intent,DziriBERT,arabizi,126,0.8935
+intent,DziriBERT,algerian_derja,102,0.9766
+intent,SVM,franco_arabic,81,0.9292
+intent,SVM,arabizi,126,0.8891
+intent,SVM,algerian_derja,102,0.9142
+intent,RandomForest,franco_arabic,81,0.7043
+intent,RandomForest,arabizi,126,0.6933
+intent,RandomForest,algerian_derja,102,0.781

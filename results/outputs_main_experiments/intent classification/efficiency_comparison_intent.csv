@@ -1,0 +1,6 @@
+Task,Model,Macro F1,Train time (s),Model size (MB)
+Intent Classification,MARBERT,0.8951750230146704,129.4,651.4
+Intent Classification,AraBERT,0.8870594976764126,108.6,540.8
+Intent Classification,DziriBERT,0.9385170356412795,90.3,497.8
+Intent Classification,SVM,0.9144704123134396,0.16,0.87
+Intent Classification,RandomForest,0.7860361567948502,2.11,43.94

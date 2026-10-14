@@ -1,0 +1,5 @@
+Model,Task,Setting,Macro-F1 (strict),95% CI,Acc (strict),Macro-F1 (answered only),Coverage,Macro-F1 (refusal=harmful)
+allam-2-7b,intent,zero-shot,0.7103,"[0.653, 0.765]",0.7896,0.7147,99.7%,
+allam-2-7b,adversarial,zero-shot,0.8511,"[0.809, 0.890]",0.8511,0.8511,100.0%,0.8511
+openai/gpt-oss-120b,intent,zero-shot,0.8382,"[0.785, 0.887]",0.8835,0.8382,100.0%,
+openai/gpt-oss-120b,adversarial,zero-shot,0.902,"[0.870, 0.932]",0.9029,0.902,100.0%,0.902

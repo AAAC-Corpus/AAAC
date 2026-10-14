@@ -1,0 +1,11 @@
+Model A,Model B,"A right, B wrong","A wrong, B right",p (raw),p (Holm),"significant (Holm, α=0.05)"
+DziriBERT,RandomForest,23,5,0.0013,0.0131,True
+AraBERT,DziriBERT,3,17,0.0026,0.0232,True
+SVM,RandomForest,19,4,0.0026,0.0232,True
+MARBERT,DziriBERT,6,18,0.0227,0.1586,False
+AraBERT,SVM,7,18,0.0455,0.273,False
+MARBERT,SVM,7,16,0.0931,0.4657,False
+MARBERT,RandomForest,20,14,0.3912,1.0,False
+DziriBERT,SVM,8,5,0.5811,1.0,False
+AraBERT,RandomForest,23,19,0.6434,1.0,False
+MARBERT,AraBERT,12,10,0.8318,1.0,False

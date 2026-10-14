@@ -1,7 +1,7 @@
 category,algerian_derja,arabizi,franco_arabic,Total
-safe,436,619,486,1541
+safe,436,695,414,1545
 prompt_injection,185,162,150,497
 sensitive_request,154,92,122,368
-tool_misuse,108,94,106,308
+tool_misuse,108,169,31,308
 hate_speech,130,142,100,372
-Total,1013,1109,964,3086
+Total,1013,1260,817,3090

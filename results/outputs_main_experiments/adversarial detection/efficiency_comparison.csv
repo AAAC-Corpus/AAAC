@@ -1,0 +1,6 @@
+Task,Model,Macro F1,Train time (s),Model size (MB)
+Adversarial Detection,MARBERT,0.9352744030163385,114.0,651.4
+Adversarial Detection,AraBERT,0.928676347154608,84.7,540.8
+Adversarial Detection,DziriBERT,0.9741097612065355,104.0,497.8
+Adversarial Detection,SVM,0.9643953281307285,0.03,0.174
+Adversarial Detection,RandomForest,0.9155382674516401,1.79,27.257

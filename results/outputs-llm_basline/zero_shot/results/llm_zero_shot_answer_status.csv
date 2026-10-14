@@ -1,0 +1,5 @@
+Model,Task,Setting,ok,refusal,empty,unparsable,api_error,refusals on adversarial (1),refusals on benign (0)
+allam-2-7b,intent,zero-shot,308,0,0,1,0,,
+allam-2-7b,adversarial,zero-shot,309,0,0,0,0,0.0,0.0
+openai/gpt-oss-120b,intent,zero-shot,309,0,0,0,0,,
+openai/gpt-oss-120b,adversarial,zero-shot,309,0,0,0,0,0.0,0.0

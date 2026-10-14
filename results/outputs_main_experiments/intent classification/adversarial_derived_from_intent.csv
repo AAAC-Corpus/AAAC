@@ -1,0 +1,6 @@
+Model,Derived from intent (macro-F1),Dedicated binary model (macro-F1)
+DziriBERT,0.9838,
+MARBERT,0.9579,
+SVM,0.9579,
+AraBERT,0.9253,
+RandomForest,0.889,

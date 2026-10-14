@@ -1,0 +1,5 @@
+Task,Model,Zero-shot F1,Few-shot F1 (first draw),Few-shot F1 mean ± std,Draws done,Δ few-shot mean − zero-shot,Few-shot coverage
+intent,allam-2-7b,,0.6844,–,1,,100.0%
+adversarial,allam-2-7b,,0.9029,–,1,,99.0%
+intent,openai/gpt-oss-120b,,0.8506,–,1,,100.0%
+adversarial,openai/gpt-oss-120b,,0.9286,–,1,,100.0%

@@ -1,0 +1,13 @@
+Model,Task,Setting,Script,n_test,Macro-F1 (strict)
+allam-2-7b,intent,zero-shot,algerian_derja,102,0.8033
+allam-2-7b,intent,zero-shot,arabizi,126,0.522
+allam-2-7b,intent,zero-shot,franco_arabic,81,0.9138
+allam-2-7b,adversarial,zero-shot,algerian_derja,102,0.9116
+allam-2-7b,adversarial,zero-shot,arabizi,126,0.7614
+allam-2-7b,adversarial,zero-shot,franco_arabic,81,0.9127
+openai/gpt-oss-120b,intent,zero-shot,algerian_derja,102,0.8665
+openai/gpt-oss-120b,intent,zero-shot,arabizi,126,0.8069
+openai/gpt-oss-120b,intent,zero-shot,franco_arabic,81,0.7955
+openai/gpt-oss-120b,adversarial,zero-shot,algerian_derja,102,0.9213
+openai/gpt-oss-120b,adversarial,zero-shot,arabizi,126,0.8575
+openai/gpt-oss-120b,adversarial,zero-shot,franco_arabic,81,0.9379

@@ -22,6 +22,18 @@
     "sensitive_request": 36,
     "tool_misuse": 31
   },
+  "label_distribution_total": {
+    "safe": 1545,
+    "prompt_injection": 497,
+    "hate_speech": 372,
+    "sensitive_request": 368,
+    "tool_misuse": 308
+  },
+  "is_adversarial_definition": "derived, not stored: 1 if category != 'safe' else 0",
+  "final_release_notes": [
+    "train_aaac_final.csv, row case_0369 (franco_arabic / sensitive_request): rewritten from Arabizi-only text to Arabic-script Franco-Arabic with the same meaning and label.",
+    "The *_final CSVs have no is_adversarial column; it is derived from category."
+  ],
   "provenance": {
     "subdataset_1": {
       "name": "Adversarial Commands",
@@ -73,5 +85,6 @@
   "consent_privacy": "No PII collected; seed prompts are synthetic; annotator is also the author.",
   "intended_use": "Training and evaluating adversarial-command detection in Algerian Arabic NLP systems",
   "known_biases": "TODO: list sub-dialects/regions represented; Algerian dialect coverage may not be exhaustive.",
+  "responsible_release": "DRAFT — author to confirm: the dataset contains adversarial prompts (prompt injection, tool misuse, sensitive requests) and hate-speech examples in Algerian Arabic, released for defensive research (training and evaluating detectors). It is not intended for generating attacks or for harassment.",
   "license_status": "Sub-dataset 2 carries MIT obligations. Sub-dataset 3: Anthropic ToS review recommended before CC-BY 4.0 release."
 }
