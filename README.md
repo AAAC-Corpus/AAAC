@@ -162,9 +162,7 @@ AAAC/
 │   ├── outputs_EDA/
 │   └── outputs_llm_baseline/
 │
-└── paper/
-    ├── AAAC.pdf
-    └── AAAC_final_paper
+└── 
 ```
 
 ---
